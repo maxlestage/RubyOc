@@ -76,3 +76,28 @@ puts car_1.others[1].inspect
 # "white seat",
 
 
+class Person
+    attr_accessor :name, :age, :address 
+
+    def say_hello
+        # puts "say Hello!" avec le nom d'une fille
+        "Say hello! " + @name 
+    end
+end
+
+puts personne_1.say_hello
+
+# Dans la class Person, on a créer un paramètre avec le mot clé 'def' 
+# Ce même mot clé qui peut se lire 'define' pour definir une action particulière. 
+# ici donc, nous avons choisis de créer une action say_hello, cette action nous permet de dire bonjour a un @nom chosi 
+
+# Dans notre cas, on récupère les données de la personne_1 name = "Maxime"
+
+#        personne_1 = Person.new 
+#        personne_1.age = 180
+#        personne_1.name = "Maxime"
+#        personne_1.address = "11 Allée des mimosas"
+
+# Aisni par l'utilisation de puts qui fonctionne un peu comme un print, on lui demande de dire bonjour suivi du nom de la persone_1 
+# Résultat du Terminal pour 'puts personne_1.say_hello' :
+# $ Say hello! Maxime
