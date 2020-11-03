@@ -36,3 +36,10 @@ $        irb(main):006:0> exit
 
 #The last important point is to cover how to get out of irb! 
 #In order to live this interactive environment, simply type 'exit' and hit Enter. 
+
+
+
+# Executer un programme Ruby avec l'extension .rb ddans le terminal avec irb 
+    # Se placer dans le dossier ou se trouve le fichier à éxecuter. 
+        # Saisir la commande suivante :
+$ ruby ‘filename.rb’
