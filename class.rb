@@ -101,3 +101,29 @@ puts personne_1.say_hello
 # Aisni par l'utilisation de puts qui fonctionne un peu comme un print, on lui demande de dire bonjour suivi du nom de la persone_1 
 # Résultat du Terminal pour 'puts personne_1.say_hello' :
 # $ Say hello! Maxime
+
+
+
+# Le hashage en Ruby 
+
+# Il se commence toujours par deux accolades, 
+
+# Exemple: 
+{ 
+    key: values,
+    key: values
+}
+
+
+state_capitals = {
+
+    # Le hash se compose de  clé / valeur :
+
+    new_york: "Albany",
+    pennsylvania: "Harrisburg",
+    colorado: "Denver",
+    maine: "Augusta",
+    vermont: "Montpelier"
+
+}
+
