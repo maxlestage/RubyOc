@@ -1,7 +1,7 @@
 #The first thing you need to do either in the online code editor 
 #or in Terminal on your computer is to type the following command and hit Enter.
 
-       $ irb
+        $ irb
 
 #You should see this line in your console upon launching irb:
 
